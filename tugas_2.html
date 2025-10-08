@@ -16,7 +16,68 @@
 <body>
 
     <div class="container">
-        
+        <main class="card">
+            <div class="weather-content">
+                
+                <div class="main-weather">
+                    <h2 id="kecamatan-main">-</h2>
+                    <img src="" id="weatherIcon" alt="Ikon Cuaca">
+                    <p class="temperature"><span id="suhu">0</span><span class="celcius">°C</span></p>
+                    <p class="description" id="deskripsiCuaca">-</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="detailed-info">
+                    <h3>Detail Informasi</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <i class='bx bx-flag'></i>
+                            <div>
+                                <p>Negara</p>
+                                <span id="negara">-</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class='bx bxs-landmark'></i>
+                            <div>
+                                <p>Provinsi</p>
+                                <span id="provinsi">-</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class='bx bxs-thermometer'></i>
+                            <div>
+                                <p>Suhu</p>
+                                <span id="suhu-detail">-</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class='bx bxs-map-alt'></i>
+                            <div>
+                                <p>Kecamatan</p>
+                                <span id="kecamatan">-</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class='bx bx-trending-up'></i>
+                            <div>
+                                <p>Latitude</p>
+                                <span id="latitude">-</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class='bx bx-trending-down'></i>
+                            <div>
+                                <p>Longitude</p>
+                                <span id="longitude">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
     </div>
 
     <script src="script.js"></script>
